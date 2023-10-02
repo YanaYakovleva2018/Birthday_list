@@ -1,19 +1,12 @@
-**Домашнє завдання**
+# Birthday_list
 
-**Завдання**
+A function for displaying a list of colleagues who need to be congratulated on their birthday in the week.
 
-Вам потрібно реалізувати корисну функцію для виведення списку колег, яких потрібно привітати з днем народження на тижні.
-
-У вас є список словників users, кожен словник у ньому обов'язково має ключі name та birthday. Така структура представляє модель списку користувачів з їх іменами та днями народження. name — це рядок з ім'ям користувача, а birthday — це datetime об'єкт, в якому записаний день народження.
-
-Ваше завдання написати функцію get_birthdays_per_week, яка отримує на вхід список users і виводить у консоль (за допомогою print) список користувачів, яких потрібно привітати по днях.
-
-Умови приймання
-get_birthdays_per_week виводить іменинників у форматі:
-Monday: Bill, Jill
-Friday: Kim, Jan
-
-Користувачів, у яких день народження був на вихідних, потрібно привітати в понеділок.
-Для тестування зручно створити тестовий список users та заповнити його самостійно.
-Функція виводить користувачів з днями народження на тиждень вперед від поточного дня.
-Тиждень починається з понеділка.
+1. The code adheres to PEP 8 standards.
+2. The function correctly processes all days of the week.
+3. The function correctly takes into account weekends and transfers them to Monday.
+4. The function takes into account cases when the birthday has already passed in this year.
+5. The function works correctly with an empty list of users.
+6. The function correctly takes into account situations when all birthdays have already passed this year.
+7. To determine what date is today, only date.today() is used
+8. The week starts from Monday
